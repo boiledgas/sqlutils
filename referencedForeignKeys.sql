@@ -1,4 +1,4 @@
-declare @tableId int = object_id('table2')
+declare @tableId int = object_id('t2')
 ;with relations as
 (
 	select row_number() over (order by t.object_id) number
